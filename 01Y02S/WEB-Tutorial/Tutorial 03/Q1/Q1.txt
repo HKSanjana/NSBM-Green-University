@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="tel" id="mobileNumber" name="mobileNumber" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Favorite Music:</td>
+                <td>
+                    <select id="favouriteMusic" name="favouriteMusic" required>
+                        <option value="Pop">Pop</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Details:</td>
+                <td><textarea id="additionalDetails" name="additionalDetails" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="termsAndConditions" name="termsAndConditions" required></td>
+                <td>I agree to the terms and conditions.</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+                <td colspan="2"><input type="submit" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

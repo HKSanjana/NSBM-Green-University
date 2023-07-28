@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Car Registration</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>Owner Name:</td>
+                <td><input type="text" placeholder="OwnerName" name="txt1" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="Email" placeholder="Email" name="E1" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="tel" placeholder="mobileNumber" name="mobileNumber" required></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select id="Country" name="Country" required>
+                        <option>Sri Lanka</option>
+                        <option>Amarica</option>
+                        <option>Dubai</option>
+                        <option>Japan</option>
+                        <option>India</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Car Model:</td>
+                <td><input type="text" placeholder="mobileNumber" name="mobileNumber" required></td>
+            </tr>
+            <tr>
+                <td>Transmission:</td>
+                <td>
+                    <input type="radio" name="r1" required> Manual
+                    <input type="radio" name="r2" required> Auto
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Favorite Music:</td>
+                <td>
+                    <select id="favouriteMusic" name="favouriteMusic" required>
+                        <option value="Pop">Pop</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Details:</td>
+                <td><textarea id="additionalDetails" name="additionalDetails" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="termsAndConditions" name="termsAndConditions" required></td>
+                <td>I agree to the terms and conditions.</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+                <td colspan="2"><input type="submit" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

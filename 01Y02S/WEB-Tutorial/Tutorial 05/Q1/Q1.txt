@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+    <body>
+        <div>
+            <img src="Blog.jpg" style="width: 1470; height: 500px;">
+            <h1 style="text-align; color:blue; "> <center>Product List</center></h1>
+            <ul="circle">
+                <h2><li>Electronics</li></h2>
+                <table>
+                    <tr><td><img src="electroinc1.webp" style="width: 300px;height: 300px;"></td></tr>
+                </table>
+                <h2><li>Foods</li></h2>
+                <table>
+                    <tr><td><img src="foods.jpg" style="width: 300px;height: 300px;"></td></tr>
+                </table>
+                <h2><li>Clothes</li></h2>
+                <table>
+                    <tr><td><img src="clothes.jpg" style="width: 300px;height: 300px;"></td></tr>
+                </table>
+            </ul>
+        </div>
+    </body>
+</html>

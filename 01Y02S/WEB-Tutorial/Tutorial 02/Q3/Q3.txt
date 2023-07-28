@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <form>
+            Name: <input type="text" name="txt1">
+            <br><br>
+            Student ID: <input type="text" name="txt2">
+        </form>
+    </body>
+</html>
